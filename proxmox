@@ -68,7 +68,7 @@ EOF
 pct exec "$CTID" -- chmod +x /opt/ip-monitor/check_ip_change.sh
 
 # Cronjob instellen
-pct exec "$CTID" -- sh -c "echo '*/10 * * * * /opt/ip-monitor/check_ip_change.sh >/dev/null 2>&1' >> /etc/crontabs/root"
+pct exec "$CTID" -- sh -c "echo '*/30 * * * * /opt/ip-monitor/check_ip_change.sh >/dev/null 2>&1' >> /etc/crontabs/root"
 
 # Enable cron en nullmailer service
 pct exec "$CTID" -- rc-update add crond default
