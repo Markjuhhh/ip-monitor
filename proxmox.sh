@@ -7,10 +7,10 @@ HOSTNAME="ip-monitor-mail"
 TEMPLATE="local:vztmpl/alpine-3.18-default_*.tar.xz"
 STORAGE="local-lvm"
 PASSWORD="IZaltbommel1"
-SMTP_HOST="smtp.jouwdomein.nl"
+SMTP_HOST="smtp.protonmail.ch"
 SMTP_PORT=587
-SMTP_USER="mark.thuis.bot@gmail.com"
-SMTP_PASS="GZaltbommel1"
+SMTP_USER="mark.thuis@proton.me"
+SMTP_PASS="PZaltbommel1"
 EMAIL_TO="markvissers@hotmail.com"
 ##########################
 
